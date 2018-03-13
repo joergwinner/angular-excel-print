@@ -17,12 +17,12 @@ file-saver (used to be able to make a downloadable file on browser) - https://gi
 This is just a demo project for the particular json to xlsx function / print function, for more complex usage or other functions, please follow the official lib documetation at https://github.com/SheetJS/js-xlsx
 #Installation
 
-npm install
-ng serve 
+
 # XlsxJsonToXlsx (shitanshu)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
-
+installation - npm install
+             - ng serve 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
