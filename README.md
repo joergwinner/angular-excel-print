@@ -1,4 +1,4 @@
-This is a demo project to show how to export on browser a JSON datasource to Excel xlsx file using the xlsx library to format the workbook and file-save library to push download the file into browser.
+In this his is a demo project to show how to export on browser a JSON datasource to Excel xlsx file using the xlsx library to format the workbook and file-save library to push download the file into browser.
 The project is created with angular-cli version 1.1.0.
 The demo is implemented on app.component and will run out of the box with ng serve -o (angular/cli should be installed and npm install/yarn executed before).
 
@@ -14,8 +14,11 @@ Dependencies:
 xlsx - https://github.com/SheetJS/js-xlsx
 file-saver (used to be able to make a downloadable file on browser) - https://github.com/eligrey/FileSaver.js/
 
-This is just a demo project for the particular json to xlsx function, for more complex usage or other functions, please follow the official lib documetation at https://github.com/SheetJS/js-xlsx
+This is just a demo project for the particular json to xlsx function / print function, for more complex usage or other functions, please follow the official lib documetation at https://github.com/SheetJS/js-xlsx
+#Installation
 
+npm install
+ng serve 
 # XlsxJsonToXlsx (shitanshu)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
