@@ -2,6 +2,8 @@ This is a demo project to show how to export on browser a JSON datasource to Exc
 The project is created with angular-cli version 1.1.0.
 The demo is implemented on app.component and will run out of the box with ng serve -o (angular/cli should be installed and npm install/yarn executed before).
 
+It also Include the Print functionality.
+
 To creat a similar project follow the steps:
 ng new xlsxTest (Angular CLI should be installed)
 npm install xlsx --save *or* yarn add xlsx
@@ -14,9 +16,9 @@ file-saver (used to be able to make a downloadable file on browser) - https://gi
 
 This is just a demo project for the particular json to xlsx function, for more complex usage or other functions, please follow the official lib documetation at https://github.com/SheetJS/js-xlsx
 
-# XlsxJsonToXlsx
+# XlsxJsonToXlsx (shitanshu)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
 
 ## Development server
 
