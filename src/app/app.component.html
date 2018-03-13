@@ -1,0 +1,50 @@
+<!--The whole content below can be removed with the new code.-->
+<button type="button" class="btn btn-primary cbutton" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Click It</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Export Excel / Print System</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" >
+          <table class="table table-bordered" name ="print" id="print" >
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Type</th>
+                  <th scope="col">Time</th>
+                  <th scope="col">IP</th>
+                  <th scope="col">Username</th>
+                  <th scope="col">Project</th>
+                  <th scope="col">ImageName</th>
+                  <th scope="col">ImageSize</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr *ngFor="let person of PERSONS">
+                      <td>{{person.TransactionType}}</td>
+                      <td>{{person.TransactionTime}}</td>
+                      <td>{{person.IP}}</td>
+                      <td>{{person.Username}}</td>
+                      <td>{{person.Project}}</td>
+                      <td>{{person.ImageName}}</td>
+                      <td>{{person.ImageSize}}</td>
+                    </tr>
+              </tbody>
+            </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" (click) = "super()" class="btn btn-primary">Export</button>
+        <button type="button" (click) = "print()" class="btn btn-success">Print</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
